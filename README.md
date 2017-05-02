@@ -21,3 +21,10 @@ De cara a una ejecución se puede ejecutar el archivo startup.bat, o en su defec
 ```
 
 La anterior ejecución aplica en caso que se haya cambiado el puerto ya que el archivo .bat viene con el puerto 8080 por defecto, en caso que se vaya a cambiar se debe reemplazar el parametro -p del comando docker run, por los puertos que se vayan a usar, dejando claro que el primer puerto es puerto origen, es decir el que se va a usar en la maquina donde se usa docker, y el puerto final es el puerto de la imagen que se expuso en el archivo Dockerfile.
+
+#Prueba de servicio
+
+El servicio puede ser probado usando el siguiente link 
+```sh
+    http://localhost:8080/getHolaMundo
+```

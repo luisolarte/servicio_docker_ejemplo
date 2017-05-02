@@ -7,7 +7,7 @@ const PORT = 8080;
 
 // App
 const app = express();
-app.get('/', function (req, res) {
+app.get('/getHolaMundo', function (req, res) {
   			
   res.send('Por si se queria el hola mundo, aqui esta jejeje\n');
 });
