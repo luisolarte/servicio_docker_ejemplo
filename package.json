@@ -1,5 +1,5 @@
 {
-  "name": "servicio_ejemplo_docker",
+  "name": "servicio_docker_ejemplo",
   "version": "1.0.0",
   "description": "Servicio ejemplo Node.js usando Docker",
   "author": "Luis Olarte",
