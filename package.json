@@ -1,0 +1,13 @@
+{
+  "name": "servicio_ejemplo_docker",
+  "version": "1.0.0",
+  "description": "Servicio ejemplo Node.js usando Docker",
+  "author": "Luis Olarte",
+  "main": "startup.js",
+  "scripts": {
+    "start": "node startup.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
