@@ -2,7 +2,7 @@
 
 Este es un ejemplo de aplicacion implementada en docker
 
-##Exposición de puertos
+#Exposición de puertos
 
 En caso que se quiera modificar el puerto por el que se va a publicar la aplicación, seria necesario editar el archivo Dockerfile en la propiedad declarada como EXPOSE, para el ejercicio se expuso el puerto 8080.
 
@@ -10,7 +10,7 @@ En caso que se quiera modificar el puerto por el que se va a publicar la aplicac
     EXPOSE 8080
 ```
 
-##Ejecución 
+#Ejecución 
 
 De cara a una ejecución se puede ejecutar el archivo startup.bat, o en su defecto ejecutar los siguientes comandos:
 ```sh
